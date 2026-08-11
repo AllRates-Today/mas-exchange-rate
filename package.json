@@ -1,7 +1,7 @@
 {
   "name": "mas-exchange-rate",
-  "version": "1.2.0",
-  "description": "Official Monetary Authority of Singapore (Singapore) daily exchange rates — 21 currencies vs SGD, history since 1988. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.2.1",
+  "description": "Official Monetary Authority of Singapore (Singapore) daily exchange rates \u2014 21 currencies vs SGD, history since 1988. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "mas",
     "monetary",
