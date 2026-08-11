@@ -1,0 +1,55 @@
+{
+  "name": "mas-exchange-rate",
+  "version": "1.2.0",
+  "description": "Official Monetary Authority of Singapore (Singapore) daily exchange rates — 21 currencies vs SGD, history since 1988. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "mas",
+    "monetary",
+    "authority",
+    "of",
+    "singapore",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "sgd",
+    "central-bank",
+    "official-rates",
+    "singapore",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/mas/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/mas-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/mas-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
