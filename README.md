@@ -85,7 +85,7 @@ const pair = await getRate('USD', 'SGD', { apiKey: 'art_live_...' });
 {
   bank: 'mas',
   name: 'Monetary Authority of Singapore',
-  rate_date: '2026-09-25',   // Monetary Authority of Singapore's own publication date
+  rate_date: '2026-10-06',   // Monetary Authority of Singapore's own publication date
   source: 'USD',
   target: 'SGD',
   rate: 1.2794,
@@ -113,7 +113,7 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'mas',
   name: 'Monetary Authority of Singapore',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
     { "base": "USD", "quote": "SGD", "type": "reference", "value": 1.2794 },
     // … the rest of the published table (21 currencies vs SGD)
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'mas-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'SGD', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'SGD', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'SGD',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 1.2794, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 1.2794, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
