@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/mas-exchange-rate.svg)](https://github.com/AllRates-Today/mas-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/mas-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/SGD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fmas%3Fsource%3DUSD%26target%3DSGD&query=%24.rate&label=USD%2FSGD%20published%20by%20Monetary%20Authority%20of%20Singapore&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/mas/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fmas%3Fsource%3DUSD%26target%3DSGD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/mas/)
 
 **Official Monetary Authority of Singapore (Singapore) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Monetary Authority of Singapore itself prints, every business day.**
 
@@ -32,6 +34,40 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Monetary Authority of Singapore table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by Monetary Authority of Singapore — 21 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | SGD | reference | 0.3484 |
+| AUD | SGD | reference | 0.8926 |
+| CAD | SGD | reference | 0.9002 |
+| CHF | SGD | reference | 1.541 |
+| CNY | SGD | reference | 0.191 |
+| EUR | SGD | reference | 1.4364 |
+| GBP | SGD | reference | 1.6941 |
+| HKD | SGD | reference | 0.163 |
+| IDR | SGD | reference | 0.00007154 |
+| INR | SGD | reference | 0.013228 |
+| JPY | SGD | reference | 0.008095 |
+| KRW | SGD | reference | 0.000953 |
+| MYR | SGD | reference | 0.313 |
+| NZD | SGD | reference | 0.7188 |
+| PHP | SGD | reference | 0.020375 |
+| QAR | SGD | reference | 0.3513 |
+| SAR | SGD | reference | 0.3408 |
+| THB | SGD | reference | 0.038126 |
+| TWD | SGD | reference | 0.040057 |
+| USD | SGD | reference | 1.2795 |
+| VND | SGD | reference | 0.00004953 |
+
+Source: [Official rates published by MAS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/mas/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
