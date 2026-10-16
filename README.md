@@ -42,31 +42,31 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Monetary Authority of Singapore — 21 rates. Updated 2026-10-15.
+Published **2026-10-16** by Monetary Authority of Singapore — 21 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SGD | reference | 0.3489 |
-| AUD | SGD | reference | 0.8909 |
-| CAD | SGD | reference | 0.9024 |
-| CHF | SGD | reference | 1.5466 |
+| AED | SGD | reference | 0.3488 |
+| AUD | SGD | reference | 0.89 |
+| CAD | SGD | reference | 0.9039 |
+| CHF | SGD | reference | 1.55 |
 | CNY | SGD | reference | 0.1915 |
-| EUR | SGD | reference | 1.4388 |
-| GBP | SGD | reference | 1.6977 |
+| EUR | SGD | reference | 1.4396 |
+| GBP | SGD | reference | 1.7042 |
 | HKD | SGD | reference | 0.1633 |
-| IDR | SGD | reference | 0.00007141 |
-| INR | SGD | reference | 0.013493 |
-| JPY | SGD | reference | 0.008127 |
-| KRW | SGD | reference | 0.000951 |
-| MYR | SGD | reference | 0.3139 |
-| NZD | SGD | reference | 0.7209 |
-| PHP | SGD | reference | 0.020316 |
-| QAR | SGD | reference | 0.3518 |
-| SAR | SGD | reference | 0.3413 |
-| THB | SGD | reference | 0.038198 |
-| TWD | SGD | reference | 0.039614 |
-| USD | SGD | reference | 1.2814 |
-| VND | SGD | reference | 0.00004951 |
+| IDR | SGD | reference | 0.00007102 |
+| INR | SGD | reference | 0.013525 |
+| JPY | SGD | reference | 0.008114 |
+| KRW | SGD | reference | 0.000954 |
+| MYR | SGD | reference | 0.3137 |
+| NZD | SGD | reference | 0.7243 |
+| PHP | SGD | reference | 0.020333 |
+| QAR | SGD | reference | 0.3515 |
+| SAR | SGD | reference | 0.3414 |
+| THB | SGD | reference | 0.038278 |
+| TWD | SGD | reference | 0.03948 |
+| USD | SGD | reference | 1.2812 |
+| VND | SGD | reference | 0.00004953 |
 
 Source: [Official rates published by MAS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/mas/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
