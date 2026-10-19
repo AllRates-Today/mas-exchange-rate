@@ -33,40 +33,43 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/mas').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Monetary Authority of Singapore table](https://allratestoday.com/api/open/central-bank/mas/table.svg)](https://allratestoday.com/central-bank-rates-api/mas/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Monetary Authority of Singapore — 21 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by Monetary Authority of Singapore — 21 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SGD | reference | 0.3488 |
-| AUD | SGD | reference | 0.89 |
-| CAD | SGD | reference | 0.9039 |
-| CHF | SGD | reference | 1.55 |
+| AED | SGD | reference | 0.3484 |
+| AUD | SGD | reference | 0.8927 |
+| CAD | SGD | reference | 0.9061 |
+| CHF | SGD | reference | 1.5524 |
 | CNY | SGD | reference | 0.1915 |
-| EUR | SGD | reference | 1.4396 |
-| GBP | SGD | reference | 1.7042 |
-| HKD | SGD | reference | 0.1633 |
-| IDR | SGD | reference | 0.00007102 |
-| INR | SGD | reference | 0.013525 |
-| JPY | SGD | reference | 0.008114 |
-| KRW | SGD | reference | 0.000954 |
-| MYR | SGD | reference | 0.3137 |
-| NZD | SGD | reference | 0.7243 |
-| PHP | SGD | reference | 0.020333 |
-| QAR | SGD | reference | 0.3515 |
-| SAR | SGD | reference | 0.3414 |
-| THB | SGD | reference | 0.038278 |
-| TWD | SGD | reference | 0.03948 |
-| USD | SGD | reference | 1.2812 |
-| VND | SGD | reference | 0.00004953 |
+| EUR | SGD | reference | 1.4368 |
+| GBP | SGD | reference | 1.7052 |
+| HKD | SGD | reference | 0.163 |
+| IDR | SGD | reference | 0.00007092 |
+| INR | SGD | reference | 0.013493 |
+| JPY | SGD | reference | 0.008093 |
+| KRW | SGD | reference | 0.000961 |
+| MYR | SGD | reference | 0.3135 |
+| NZD | SGD | reference | 0.7239 |
+| PHP | SGD | reference | 0.020285 |
+| QAR | SGD | reference | 0.351 |
+| SAR | SGD | reference | 0.3409 |
+| THB | SGD | reference | 0.038163 |
+| TWD | SGD | reference | 0.03935 |
+| USD | SGD | reference | 1.2794 |
+| VND | SGD | reference | 0.00004938 |
+
+</details>
 
 Source: [Official rates published by MAS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/mas/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -339,7 +342,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/mas-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/mas-exchange-rate)
 
 ## 📜 License
