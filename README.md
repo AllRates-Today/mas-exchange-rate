@@ -47,31 +47,31 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-27 by Monetary Authority of Singapore — 21 rates. Updated 2026-10-27.</summary>
+<summary>Table as text: published 2026-10-28 by Monetary Authority of Singapore — 21 rates. Updated 2026-10-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SGD | reference | 0.3486 |
-| AUD | SGD | reference | 0.9003 |
-| CAD | SGD | reference | 0.9138 |
-| CHF | SGD | reference | 1.5472 |
-| CNY | SGD | reference | 0.192 |
-| EUR | SGD | reference | 1.4304 |
-| GBP | SGD | reference | 1.7083 |
-| HKD | SGD | reference | 0.1632 |
-| IDR | SGD | reference | 0.0000706 |
-| INR | SGD | reference | 0.013443 |
-| JPY | SGD | reference | 0.008121 |
-| KRW | SGD | reference | 0.000966 |
-| MYR | SGD | reference | 0.3134 |
-| NZD | SGD | reference | 0.7302 |
-| PHP | SGD | reference | 0.020017 |
-| QAR | SGD | reference | 0.3512 |
-| SAR | SGD | reference | 0.3411 |
-| THB | SGD | reference | 0.037973 |
-| TWD | SGD | reference | 0.039377 |
-| USD | SGD | reference | 1.2803 |
-| VND | SGD | reference | 0.00004955 |
+| AED | SGD | reference | 0.349 |
+| AUD | SGD | reference | 0.9015 |
+| CAD | SGD | reference | 0.9113 |
+| CHF | SGD | reference | 1.5446 |
+| CNY | SGD | reference | 0.1922 |
+| EUR | SGD | reference | 1.4256 |
+| GBP | SGD | reference | 1.7047 |
+| HKD | SGD | reference | 0.1634 |
+| IDR | SGD | reference | 0.00007049 |
+| INR | SGD | reference | 0.01348 |
+| JPY | SGD | reference | 0.008114 |
+| KRW | SGD | reference | 0.000957 |
+| MYR | SGD | reference | 0.3139 |
+| NZD | SGD | reference | 0.7196 |
+| PHP | SGD | reference | 0.020028 |
+| QAR | SGD | reference | 0.3516 |
+| SAR | SGD | reference | 0.3415 |
+| THB | SGD | reference | 0.037879 |
+| TWD | SGD | reference | 0.03951 |
+| USD | SGD | reference | 1.2817 |
+| VND | SGD | reference | 0.0000496 |
 
 </details>
 
