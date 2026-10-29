@@ -47,31 +47,31 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Monetary Authority of Singapore — 21 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Monetary Authority of Singapore — 21 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SGD | reference | 0.349 |
-| AUD | SGD | reference | 0.9015 |
-| CAD | SGD | reference | 0.9113 |
-| CHF | SGD | reference | 1.5446 |
+| AED | SGD | reference | 0.3487 |
+| AUD | SGD | reference | 0.9031 |
+| CAD | SGD | reference | 0.9157 |
+| CHF | SGD | reference | 1.5458 |
 | CNY | SGD | reference | 0.1922 |
-| EUR | SGD | reference | 1.4256 |
-| GBP | SGD | reference | 1.7047 |
-| HKD | SGD | reference | 0.1634 |
-| IDR | SGD | reference | 0.00007049 |
-| INR | SGD | reference | 0.01348 |
-| JPY | SGD | reference | 0.008114 |
-| KRW | SGD | reference | 0.000957 |
-| MYR | SGD | reference | 0.3139 |
-| NZD | SGD | reference | 0.7196 |
-| PHP | SGD | reference | 0.020028 |
-| QAR | SGD | reference | 0.3516 |
-| SAR | SGD | reference | 0.3415 |
-| THB | SGD | reference | 0.037879 |
-| TWD | SGD | reference | 0.03951 |
-| USD | SGD | reference | 1.2817 |
-| VND | SGD | reference | 0.0000496 |
+| EUR | SGD | reference | 1.4271 |
+| GBP | SGD | reference | 1.7061 |
+| HKD | SGD | reference | 0.1632 |
+| IDR | SGD | reference | 0.00007072 |
+| INR | SGD | reference | 0.013441 |
+| JPY | SGD | reference | 0.008119 |
+| KRW | SGD | reference | 0.000959 |
+| MYR | SGD | reference | 0.3151 |
+| NZD | SGD | reference | 0.7197 |
+| PHP | SGD | reference | 0.020053 |
+| QAR | SGD | reference | 0.3514 |
+| SAR | SGD | reference | 0.3412 |
+| THB | SGD | reference | 0.037935 |
+| TWD | SGD | reference | 0.039335 |
+| USD | SGD | reference | 1.2805 |
+| VND | SGD | reference | 0.00004957 |
 
 </details>
 
@@ -236,6 +236,7 @@ The Monetary Authority of Singapore — central bank and financial regulator of 
 
 - Publisher's own page: [S$ exchange rates](https://www.mas.gov.sg/statistics/exchange-rates) · [www.mas.gov.sg](https://www.mas.gov.sg)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Monetary Authority of Singapore rates page](https://allratestoday.com/central-bank-rates-api/mas/)
+- In the API: usually by **07:15 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
