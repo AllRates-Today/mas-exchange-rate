@@ -24,54 +24,39 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Monetary Authority of Singapore table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/mas?source=USD&target=SGD"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/mas').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Monetary Authority of Singapore table](https://allratestoday.com/api/open/central-bank/mas/table.svg)](https://allratestoday.com/central-bank-rates-api/mas/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Monetary Authority of Singapore — 21 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Monetary Authority of Singapore — 21 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SGD | reference | 0.3487 |
-| AUD | SGD | reference | 0.9031 |
-| CAD | SGD | reference | 0.9157 |
-| CHF | SGD | reference | 1.5458 |
-| CNY | SGD | reference | 0.1922 |
-| EUR | SGD | reference | 1.4271 |
-| GBP | SGD | reference | 1.7061 |
-| HKD | SGD | reference | 0.1632 |
-| IDR | SGD | reference | 0.00007072 |
-| INR | SGD | reference | 0.013441 |
+| AED | SGD | reference | 0.3479 |
+| AUD | SGD | reference | 0.8995 |
+| CAD | SGD | reference | 0.9145 |
+| CHF | SGD | reference | 1.5547 |
+| CNY | SGD | reference | 0.1919 |
+| EUR | SGD | reference | 1.4301 |
+| GBP | SGD | reference | 1.7114 |
+| HKD | SGD | reference | 0.1629 |
+| IDR | SGD | reference | 0.00007044 |
+| INR | SGD | reference | 0.013412 |
 | JPY | SGD | reference | 0.008119 |
-| KRW | SGD | reference | 0.000959 |
-| MYR | SGD | reference | 0.3151 |
-| NZD | SGD | reference | 0.7197 |
-| PHP | SGD | reference | 0.020053 |
-| QAR | SGD | reference | 0.3514 |
-| SAR | SGD | reference | 0.3412 |
-| THB | SGD | reference | 0.037935 |
-| TWD | SGD | reference | 0.039335 |
-| USD | SGD | reference | 1.2805 |
-| VND | SGD | reference | 0.00004957 |
+| KRW | SGD | reference | 0.000956 |
+| MYR | SGD | reference | 0.3156 |
+| NZD | SGD | reference | 0.7208 |
+| PHP | SGD | reference | 0.020067 |
+| QAR | SGD | reference | 0.3506 |
+| SAR | SGD | reference | 0.3405 |
+| THB | SGD | reference | 0.037913 |
+| TWD | SGD | reference | 0.039187 |
+| USD | SGD | reference | 1.2779 |
+| VND | SGD | reference | 0.00004953 |
 
 </details>
 
